@@ -22,7 +22,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Owner("zatulivetrova")
 @Story("Medindex")
 @Feature("Главная страница")
-@Tags({@Tag("all_tests"), @Tag("main_page")})
 
 public class MedlindexTests extends TestBase {
     @Microservice("Main page")
