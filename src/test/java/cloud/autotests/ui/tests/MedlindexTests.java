@@ -30,8 +30,7 @@ public class MedlindexTests extends TestBase {
     @Description("Тесты для Medindex")
     @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void formforapplicantsTest() {
-        step("Открываем главную страницу сайта", () ->
-                open(baseUrl));
+        medindexSteps.openMainPage();
 
         step("Проверяем, что на главной странице есть форма для соискателей", () ->
                 $(By.className("container")).shouldBe(visible));
@@ -45,8 +44,7 @@ public class MedlindexTests extends TestBase {
     @Description("Тесты для Medindex")
     @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void pageisswitchesTest() {
-        step("Открываем главную страницу сайта", () ->
-                open(baseUrl));
+        medindexSteps.openMainPage();
 
         step("Переключаем страницу на английский язык", () ->
                 $(By.linkText("Eng")).click());
@@ -67,8 +65,7 @@ public class MedlindexTests extends TestBase {
     @Description("Тесты для Medindex")
     @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void vacanciesforapplicantsTest() {
-        step("Открываем главную страницу сайта", () ->
-                open(baseUrl));
+        medindexSteps.openMainPage();
 
         step("Проверяем, что на ней есть форма с вакансиями", () ->
                 $(By.className("vacancy-accordion")).shouldBe(visible));
@@ -82,8 +79,7 @@ public class MedlindexTests extends TestBase {
     @Description("Тесты для Medindex")
     @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void titleTest() {
-        step("Открываем главную страницу сайта", () ->
-                open(baseUrl));
+        medindexSteps.openMainPage();
 
         step("Заголовок страницы должен содержать текст 'Мединдекс: ИТ решения для медицины'", () -> {
             String expectedTitle = "Мединдекс: ИТ решения для медицины";
@@ -101,8 +97,7 @@ public class MedlindexTests extends TestBase {
     @Description("Тесты для Medindex")
     @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void consoleShouldNotHaveErrorsTest() {
-        step("Открываем главную страницу сайта", () ->
-                open(baseUrl));
+        medindexSteps.openMainPage();
 
         step("Console logs не должен содержать текст 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
