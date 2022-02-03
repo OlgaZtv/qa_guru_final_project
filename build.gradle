@@ -48,7 +48,9 @@ tasks.withType(JavaCompile) {
 
 tasks.withType(Test) {
     systemProperties(System.getProperties())
-    useJUnitPlatform()
+    useJUnitPlatform {
+        includeTags System.getProperty("tag", "all_tests")
+    }
 
 
     if (System.getProperty("threads") != null) {
