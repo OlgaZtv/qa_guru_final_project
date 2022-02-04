@@ -4,7 +4,7 @@
 * API - https://reqres.in
 
 ## Покрыт следующий функционал
-* UI тесты
+* UI тесты - https://medindex.ru/
     * ✅ Проверка наличия формы для отклика соискателей
     * ✅ Проверка переключения страницы сайта на английский язык
     * ✅ Проверка наличия блока с вакансиями на сайте
@@ -12,7 +12,7 @@
     * ✅ Проверка, что лог страницы не содержит ошибок
     
 
-* API тесты
+* API тесты - https://reqres.in
   * ✅ Получение списка пользователей
   * ✅ Проверка наличия пользователя в базе
   * ✅ Получение одного пользователя
@@ -65,18 +65,18 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 
 ### Запуск в Jenkins
 Статистика по запускам <br >
-<a href="https://ibb.co/nnKgcv6"><img src="https://i.ibb.co/CMS17Zm/statistic-jenkins.png" alt="Статистика по запускам" border="0" /></a>
+<a href="https://ibb.co/TvwPjzj"><img src="https://i.ibb.co/2nFcVXV/jenkins-stst.png" alt="Статистика по запускам" border="0"></a>
 
 Параметры запуска <br >
-<a href="https://ibb.co/zbNbgHb"><img src="https://i.ibb.co/Y8b8ST8/jenkins-parametrs.png" alt="jenkins-parametrs" border="0" /></a>
+<a href="https://ibb.co/THr4VDp"><img src="https://i.ibb.co/nDR7HqZ/Jenkins.png" alt="Jenkins" border="0"></a>
 
 ### Отчёт о прохождении автотестов в Allure Report
-<a href="https://ibb.co/HzG3q6q"><img src="https://i.ibb.co/WyBjfZf/Allure-report.png" alt="Allure-report" border="0" /></a>
+<a href="https://ibb.co/JrXXHGf"><img src="https://i.ibb.co/SVqqBMh/Allure-Report.png" alt="Allure-Report" border="0"></a>
 ### Список автотестов в Allure Report
-<a href="https://ibb.co/sWqKV61"><img src="https://i.ibb.co/hYVBmZd/Allure-list.png" alt="Allure-list" border="0" /></a>
+<a href="https://ibb.co/wSYB1HD"><img src="https://i.ibb.co/rxvFJPn/Allure-Report-2.png" alt="Allure-Report-2" border="0"></a>
 ### Хранение тестовой документации в Allure TestOps
-<a href="https://ibb.co/dGQYBx1"><img src="https://i.ibb.co/qkRQBVX/Allure-Test-Ops.png" alt="Allure-Test-Ops" border="0" /></a>
+<a href="https://ibb.co/7jtSWMC"><img src="https://i.ibb.co/pbj1zVw/Allure-Test-Ops.png" alt="Allure-Test-Ops" border="0"></a>
 ### Интерграция с Jira
-<a href="https://ibb.co/C9fRLvH"><img src="https://i.ibb.co/VCsf6Dq/Jira.png" alt="Jira" border="0" /></a>
+<a href="https://ibb.co/74Mq73C"><img src="https://i.ibb.co/JQ69XYt/HOMEWORK-320-Olga-Ztv-final-project-tests-QA-GURU-Jira.png" alt="HOMEWORK-320-Olga-Ztv-final-project-tests-QA-GURU-Jira" border="0"></a>
 ### Уведомления о прохождении автотестов в Telegram
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/XbqZnDj/telegram.png" alt="telegram" border="0" /></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/G2fGQj5/telegram-bot.png" alt="telegram-bot" border="0"></a>
