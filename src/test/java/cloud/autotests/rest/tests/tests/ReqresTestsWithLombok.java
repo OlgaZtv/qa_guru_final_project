@@ -1,5 +1,6 @@
 package cloud.autotests.rest.tests.tests;
 
+
 import annotations.Layer;
 import cloud.autotests.rest.tests.lombok.CreateUserRequest;
 import cloud.autotests.rest.tests.lombok.CreateUserResponse;
@@ -14,8 +15,8 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 import static cloud.autotests.rest.tests.filters.CustomLogFilter.customLogFilter;
-import static cloud.autotests.rest.tests.tests.SpecsReqres.request;
-import static cloud.autotests.rest.tests.tests.SpecsReqres.responseSpec;
+import static cloud.autotests.rest.tests.spec.SpecsReqres.request;
+import static cloud.autotests.rest.tests.spec.SpecsReqres.responseSpec;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasItem;
 import static org.junit.jupiter.api.Assertions.*;

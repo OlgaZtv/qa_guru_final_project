@@ -1,4 +1,4 @@
-package cloud.autotests.rest.tests.tests;
+package cloud.autotests.rest.tests.spec;
 
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
