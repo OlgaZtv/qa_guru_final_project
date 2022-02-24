@@ -1,9 +1,5 @@
 package cloud.autotests.ui.tests;
 
-import annotations.JiraIssue;
-import annotations.JiraIssues;
-import annotations.Layer;
-import annotations.Microservice;
 import cloud.autotests.ui.helpers.DriverUtils;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
@@ -21,8 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Story("Medindex")
 @Feature("Главная страница")
 
-public class MedlindexTests extends TestBase {
-    @Microservice("Main page")
+public class AutoTests extends TestBase {
     @Test
     @AllureId("7005")
     @DisplayName("Главная страница содержит форму для соискателей")
@@ -36,7 +31,6 @@ public class MedlindexTests extends TestBase {
                 $(By.className("container")).shouldBe(visible));
     }
 
-    @Microservice("Англоязычная версия сайта")
     @Test
     @AllureId("7017")
     @DisplayName("Проверяем, что страница переключается на английский язык")
@@ -57,7 +51,6 @@ public class MedlindexTests extends TestBase {
         });
     }
 
-    @Microservice("Главная страница")
     @Test
     @AllureId("7018")
     @DisplayName("На главной странице должна быть форма с вакансиями")
@@ -71,7 +64,6 @@ public class MedlindexTests extends TestBase {
                 $(By.className("vacancy-accordion")).shouldBe(visible));
     }
 
-    @Microservice("Заголовок")
     @Test
     @AllureId("7019")
     @DisplayName("Проверка корректности заголовка главной страницы")
@@ -89,7 +81,6 @@ public class MedlindexTests extends TestBase {
         });
     }
 
-    @Microservice("Ошибки в логах")
     @Test
     @AllureId("7020")
     @DisplayName("Console log не должен содержать ошибок")

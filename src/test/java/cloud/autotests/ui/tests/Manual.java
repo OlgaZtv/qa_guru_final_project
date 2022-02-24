@@ -1,7 +1,6 @@
 package cloud.autotests.ui.tests;
 
 
-import annotations.Manual;
 import io.qameta.allure.AllureId;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
@@ -12,7 +11,7 @@ import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
 
 @Tags({@Tag("all_tests"), @Tag("main_page")})
-public class AllureManual {
+public class Manual {
 
     @Test
     @Manual("Ручные тесты")

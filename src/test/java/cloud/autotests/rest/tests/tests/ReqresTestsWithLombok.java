@@ -1,10 +1,10 @@
 package cloud.autotests.rest.tests.tests;
 
 import annotations.Layer;
-import cloud.autotests.rest.tests.tests.lombok.CreateUserRequest;
-import cloud.autotests.rest.tests.tests.lombok.CreateUserResponse;
-import cloud.autotests.rest.tests.tests.lombok.RegisterUser;
-import cloud.autotests.rest.tests.tests.lombok.Users;
+import cloud.autotests.rest.tests.lombok.CreateUserRequest;
+import cloud.autotests.rest.tests.lombok.CreateUserResponse;
+import cloud.autotests.rest.tests.lombok.RegisterUser;
+import cloud.autotests.rest.tests.lombok.Users;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;

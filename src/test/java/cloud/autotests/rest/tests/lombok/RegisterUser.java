@@ -1,4 +1,4 @@
-package cloud.autotests.rest.tests.tests.lombok;
+package cloud.autotests.rest.tests.lombok;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

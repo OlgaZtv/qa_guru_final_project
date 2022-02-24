@@ -1,4 +1,4 @@
-package cloud.autotests.rest.tests.tests.lombok;
+package cloud.autotests.rest.tests.lombok;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,8 +6,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class CreateUserRequest {
-
     private String name;
     private String job;
-
 }

@@ -25,18 +25,18 @@
 ## Технологический стек
 Java, Gradle, JUnit5, IntelliJ IDEA, Selenide, Jenkins, Allure TestOps, Jira, Github, Telegram
 
-<a href="https://github.com/angry-qa/vkc-demo">
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Java.svg" width="40" height="40"  alt="Java"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Gradle.svg" width="40" height="40"  alt="Gradle"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/JUnit5.svg" width="40" height="40"  alt="JUnit 5"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Intelij_IDEA.svg" width="40" height="40"  alt="IDEA"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Selenide.svg" width="40" height="40"  alt="Seleide"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg" width="40" height="40"  alt="Jenkins"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Jira.svg" width="40" height="40"  alt="Jira"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Github.svg" width="40" height="40"  alt="Github"/>
-  <img src="https://starchenkov.pro/qa-guru/img/skills/Telegram.svg" width="40" height="40"  alt="Telegram"/>
-</a>
+
+  <img src="https://i.ibb.co/gtnxLqH/java.png" width="40" height="40"  alt="Java"/>
+  <img src="https://i.ibb.co/0jBcyBY/gradle-icon.png" width="40" height="40"  alt="Gradle"/>
+  <img src="https://i.ibb.co/PgvTPCh/Junit5.jpg" width="50" height="40"  alt="JUnit 5"/>
+  <img src="https://i.ibb.co/8YWqxkP/Intelleji.png" width="40" height="40"  alt="IDEA"/>
+  <img src="https://i.ibb.co/SmBNT3B/Selenide.jpg" width="50" height="40"  alt="Seleide"/>
+  <img src="https://i.ibb.co/4p3B78k/Jenkins.jpg" width="40" height="40"  alt="Jenkins"/>
+  <img src="https://i.ibb.co/37MYfX4/allure.jpg" width="40" height="40"  alt="Allure TestOps"/>
+  <img src="https://i.ibb.co/RSv0PZv/Jira.png" width="40" height="40"  alt="Jira"/>
+  <img src="https://i.ibb.co/mCQd2Cx/Github.png" width="40" height="40"  alt="Github"/>
+  <img src="https://i.ibb.co/KWhp0hT/telegram-logo.png" width="40" height="40"  alt="Telegram"/>
+
 
 ## Как запустить
 Перед выполением необходимо:
